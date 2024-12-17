@@ -1,0 +1,63 @@
+.find {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 50px;
+    
+}
+
+
+
+.find-item {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 20%;
+    height: 50px;
+    border-width: 5px;
+    border-radius: 15px;
+
+}
+
+.find-item:focus {
+    outline: none; 
+      
+}
+
+
+.favourite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 60
+    px;
+    margin-right: 25px;
+}
+
+.favourite-button:focus {
+    outline: none;
+  }
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 25px;
+
+}
+.card-text {
+    font-size: 55px;
+}
+.card-name {
+    font-size: 60px;
+}
+
+
+.like-div {
+    display: flex;
+    justify-content: right;
+}

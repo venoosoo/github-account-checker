@@ -1,0 +1,21 @@
+.favourite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.favourite-text {
+    margin-top: 40px;
+    font-size: 50px;
+    
+}
+
+
+.favourite-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.user-cards > * {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
